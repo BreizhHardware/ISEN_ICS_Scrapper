@@ -1,0 +1,25 @@
+[project]
+name = "isen-ics-scrapper"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Félix MARQUET",email = "72651575+BreizhHardware@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "requests (>=2.32.5,<3.0.0)",
+    "ics (>=0.7.2,<0.8.0)",
+    "rich (>=14.2.0,<15.0.0)",
+    "typer (>=0.21.0,<0.22.0)"
+]
+
+[tool.poetry]
+packages = [{include = "isen_ics_scrapper", from = "src"}]
+
+[tool.poetry.scripts]
+isen-ics = "isen_ics_scrapper.main:app"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
