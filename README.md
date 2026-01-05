@@ -4,6 +4,8 @@ Un outil en ligne de commande (CLI) moderne pour télécharger, analyser et visu
 
 Il permet de récupérer automatiquement votre calendrier depuis `web.isen-ouest.fr`, de calculer le nombre total d'heures par matière et d'afficher le tout dans un tableau élégant directement dans votre terminal.
 
+> **⚠️ Attention :** L'export ICS fourni par l'école est limité aux deux prochains mois (le mois en cours et le suivant). Les heures calculées ne représentent donc pas la totalité du semestre ou de l'année.
+
 ## 🚀 Fonctionnalités
 
 - **Téléchargement automatique** de l'emploi du temps via ID étudiant.
